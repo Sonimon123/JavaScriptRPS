@@ -3,9 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>JS RPS</title>
-        <script src="rps.js"></script>
+        <script src="rps.js" defer></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="header">
+            <div class="pscore">Player Score: 0</div>
+            <div class="message">Welcome to RPS!</div>
+            <div class="cscore">Computer Score: 0</div>
+        </div>
 
+        <div class="game">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+
+        <div class="footer">
+            <div>JR Kargbo 2023</div>
+        </div>
     </body>
 </html>

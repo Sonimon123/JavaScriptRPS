@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1000px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.game button {
+    flex: auto;
+    min-width: 100px;
+    min-height: 100px;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
